@@ -19,7 +19,7 @@ jobs:
       - name: Check output
         env:
           RELEASE_VERSION: ${{ steps.vars.outputs.tag }}
-          NG_CLI_VERSION: ${{ steps.vars.outputs.node }}
+          NG_CLI_VERSION: ${{ steps.vars.outputs.angular }}
           NODE_VERSION: ${{ steps.vars.outputs.node }}
         run: |
           echo $RELEASE_VERSION
