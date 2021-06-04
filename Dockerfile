@@ -11,5 +11,5 @@ LABEL maintainer="Michele Mondelli <michele.mondelli@bmeme.com>" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="bmeme/angular-dev" \
       org.label-schema.version="${NG_CLI_VERSION}-${NODE_VERSION}" \
-      org.label-schema.description="Angular development image" \
+      org.label-schema.description="Angular development docker image" \
       org.label-schema.url="https://www.bmeme.com/"
