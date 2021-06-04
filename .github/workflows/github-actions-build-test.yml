@@ -3,9 +3,9 @@ name: Build test
 on:
   push:
     branches:
-      - *
+      - "*"
     tags-ignore:
-      - *
+      - "*"
 
 jobs:
   build-test:
